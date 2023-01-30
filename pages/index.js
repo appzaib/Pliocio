@@ -11,21 +11,22 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Pliocio</title>
+        <title>Fixedam</title>
         <meta name="description" content="Your Next Firm" />
       </Head>
-      <div className="section text-center mb-5">
-        <img src="featured.jpeg" className='w-full h-auto' alt="" />
-        <h2 className='lg:w-3/4 mx-auto lg:text-3xl pt-1 tracking-wide text-slate-700'>We position companies for market success and create awareness among their high‑value audiences.
+      <div className="lg:max-h-screen text-center mb-5">
+        <img src="featured2.jpeg" className='lg:h-[75vh] w-full object-cover' alt="" />
+        <h2 className='lg:w-3/4 mx-auto text-center lg:text-3xl pt-1 tracking-wide text-slate-700 sm:text-2xl md:text-xl'>We position companies for market success and create awareness among their high-value audiences.
         </h2>
       </div>
+
       <section id='services'>
-        <div className='text-center bg-slate-50'>
+        <div className='text-center lg:h-[100vh] bg-slate-50'>
           <div className='lg:w-3/4 mx-auto'>
-            <h2 className='lg:text-5xl pt-3'>Our Services</h2>
-            <div className="container px-6 py-12 mx-auto">
+            <h2 className='text-5xl lg:text-5xl pt-16'>Our Services</h2>
+            <div className="container px-6 py-20 mx-auto">
               <div className="flex flex-wrap">
-                <div className="lg:w-1/3 lg:mb-0 mb-6 p-6">
+                <div className="lg:w-1/3 w-full lg:mb-0 mb-6 p-6">
                   <div className="h-full text-center">
                     <HiOutlineSpeakerphone className="w-12 h-12 mb-5 object-cover object-center inline-block text-neutral-500" />
                     <a href="">
@@ -33,7 +34,7 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                <div className="lg:w-1/3 lg:mb-0 mb-6 p-6">
+                <div className="lg:w-1/3 w-full lg:mb-0 mb-6 p-6">
                   <div className="h-full text-center">
                     <FaMarker className="w-12 h-12 mb-5 object-cover object-center inline-block text-neutral-500" />
                     <a href="">
@@ -41,15 +42,15 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                <div className="lg:w-1/3 lg:mb-0 mb-6 p-6">
+                <div className="lg:w-1/3 w-full lg:mb-0 mb-6 p-6">
                   <div className="h-full text-center">
                     <TiMessages className="w-12 h-12 mb-5 object-cover object-center inline-block text-neutral-500" />
                     <a href="">
-                      <h2 className='lg:text-xl font-semibold text-zinc-700'>Brand Communications</h2>
+                      <h2 className='text-xl font-semibold text-zinc-700'>Brand Communications</h2>
                     </a>
                   </div>
                 </div>
-                <div className="lg:w-1/3 lg:mb-0 mb-6 p-6">
+                <div className="lg:w-1/3 w-full lg:mb-0 mb-6 p-6">
                   <div className="h-full text-center">
                     <MdSocialDistance className="w-12 h-12 mb-5 object-cover object-center inline-block text-neutral-500" />
                     <a href="">
@@ -57,7 +58,7 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                <div className="lg:w-1/3 lg:mb-0 mb-6 p-6">
+                <div className="lg:w-1/3 w-full lg:mb-0 mb-6 p-6">
                   <div className="h-full text-center">
                     <SiWebflow className="w-12 h-12 mb-5 object-cover object-center inline-block text-neutral-500" />
                     <a href="">
@@ -65,7 +66,7 @@ export default function Home() {
                     </a>
                   </div>
                 </div>
-                <div className="lg:w-1/3 lg:mb-0 mb-6 p-6">
+                <div className="lg:w-1/3 w-full lg:mb-0 mb-6 p-6">
                   <div className="h-full text-center">
                     <GiPencilBrush className="w-12 h-12 mb-5 object-cover object-center inline-block text-neutral-500" />
                     <a href="">
@@ -81,7 +82,7 @@ export default function Home() {
       <div className='text-center container px-5 py-8 mx-auto'>
         <h2 className='lg:w-1/2 lg:text-4xl texl-3xl py-3 font-semibold mx-auto'>Our media placements will increase your credibility and bring you more prospects
         </h2>
-        <div className="flex flex-wrap sm:-m-4 pt-6 -mb-10 md:space-y-0 space-y-6">
+        <div className="flex flex-wrap sm:-m-4 pt-8 -mb-10 md:space-y-0 space-y-6">
           <div className="p-4 lg:w-1/5 md:w-1/3 flex flex-col text-center items-center">
             <div className="text-3xl inline-flex items-center justify-center text-green-500 mb-5">
               <IoMdCheckmarkCircleOutline />
@@ -130,7 +131,7 @@ export default function Home() {
         </div>
       </div>
       <section className="text-gray-600">
-        <div className="container px-5 py-12 mx-auto">
+        <div className="container px-5 py-8 mx-auto">
           <h2 className='text-center text-3xl font-semibold py-8'>Testimonials</h2>
           <div className="flex flex-wrap -m-4">
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
