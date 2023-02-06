@@ -1,8 +1,12 @@
+import Head from "next/head";
 import React from "react";
 
 function Contact() {
   return (
     <div>
+      <Head>
+        <title>Conatct Us</title>
+      </Head>
       <section id="contact" className="text-white bg-sky-800 relative">
         <div className="container px-5 py-6 mx-auto">
           <div className="flex flex-col text-center w-full mb-8">
