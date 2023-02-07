@@ -88,7 +88,7 @@ export default function Services() {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-              src="CONTENT.jpg"
+              src="content.jpg"
             />
           </div>
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
