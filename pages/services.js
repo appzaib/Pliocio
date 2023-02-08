@@ -2,15 +2,15 @@ export default function Services() {
   return (
     <div>
       <section className="text-gray-600 container mx-auto">
-        <h1 class="text-5xl font-bold mt-7 mb-10 text-center text-gray-900">
+        <h1 class="text-5xl font-bold my-8 text-center text-gray-900">
           Our Services
         </h1>
-        <div className="flex px-5 py-8 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Media Relations
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-4 leading-relaxed">
               Media relations is a crucial aspect of public relations and
               involves building and maintaining positive relationships with
               journalists, editors, and other media outlets. The goal of media
@@ -31,7 +31,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="flex px-5 py-8 md:flex-row flex-col items-center">
+        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
               className="object-cover object-center rounded"
@@ -39,11 +39,11 @@ export default function Services() {
               src="crisis.jpg"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Crisis Management
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-4 leading-relaxed">
               Crisis management is an essential part of any public relations
               strategy. In a crisis situation, it's critical to have a plan in
               place to minimize damage to your reputation and brand. This may
@@ -56,12 +56,12 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="flex px-5 py-8 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Event Planning
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-4 leading-relaxed">
               Event planning is a key aspect of public relations and marketing,
               as it provides an opportunity to build your brand, engage your
               target audience, and generate positive media coverage. Successful
@@ -83,7 +83,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="flex px-5 py-8 md:flex-row flex-col items-center">
+        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
               className="object-cover object-center rounded"
@@ -91,11 +91,11 @@ export default function Services() {
               src="content.jpg"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Content Creation
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-4 leading-relaxed">
               Content creation is a key aspect of modern marketing and public
               relations, as it provides a way to engage your target audience and
               build your brand. Whether it's blog posts, video production, or
@@ -110,12 +110,12 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="flex px-5 py-8 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Influencer Marketing
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-4 leading-relaxed">
               Influencer marketing is a modern marketing strategy that leverages
               the power of social media influencers to reach your target
               audience, increase brand awareness, and drive sales. Effective
@@ -137,7 +137,7 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="flex px-5 py-8 md:flex-row flex-col items-center">
+        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
               className="object-cover object-center rounded"
@@ -145,11 +145,11 @@ export default function Services() {
               src="SOCIAL-MEDIA.jpg"
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
               Social Media Management
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="mb-4 leading-relaxed">
               Social media management is an essential aspect of modern marketing
               and public relations. It involves creating and executing effective
               social media strategies, from content creation to community
