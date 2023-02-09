@@ -8,24 +8,24 @@ function About() {
       </Head>
       <div className="lg:max-h-screen text-center">
         <img
-          src="featured.png"
+          src="feature.jpg"
           className="lg:h-[90vh] w-full object-cover"
           alt=""
         />
       </div>
-      <div className="bg-sky-800">
-        <div className="container mx-auto px-6 py-12 text-white">
+      <div className="py-12">
+        <div className="container mx-auto px-6">
           <h1 className="text-3xl font-medium mb-6">
             Introducing Our Public Relations Firm
           </h1>
-          <p className="text-lg mb-6">
+          <p className="text-lg mb-6 text-gray-800">
             At Fixedam, we provide top-notch public relations services to help
             clients navigate the complex and ever-changing media landscape. Our
             team of experienced PR professionals has a proven track record of
             delivering results for a wide range of industries and organizations.
           </p>
           <h2 className="text-2xl font-medium mb-6">Why Choose Us?</h2>
-          <ul className="list-disc pl-5 mb-6">
+          <ul className="list-disc pl-5 mb-6 text-gray-800">
             <li className="mb-2">
               Results-Driven Approach: We focus on delivering measurable results
               for our clients and use data-driven strategies to drive impact.
@@ -51,7 +51,7 @@ function About() {
               of PR services to meet all of your needs.
             </li>
           </ul>
-          <p className="text-lg mb-6">
+          <p className="text-lg mb-6 text-gray-800">
             Our team is passionate about helping clients tell their story and
             building their brand. Let us put our expertise to work for you.
             Contact us today to learn more about our services and how we can
