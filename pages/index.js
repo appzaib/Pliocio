@@ -18,106 +18,106 @@ export default function Home() {
       </Head>
       <div className="lg:max-h-screen text-center">
         <img
-          src="featured.png"
+          src="feature.jpg"
           className="lg:h-[75vh] w-full object-cover"
           alt=""
         />
-        <h2 className="lg:w-3/4 mx-auto text-center lg:text-3xl text-xl py-1 tracking-wide text-slate-700 sm:text-2xl md:text-xl">
+        <h2 className="lg:w-3/4 mx-auto text-center lg:text-3xl text-xl pt-7 tracking-wide text-slate-700 sm:text-2xl md:text-xl">
           We position companies for market success and create awareness among
           their high-value audiences.
         </h2>
       </div>
 
-      <section class="py-4">
-        <div class="container mx-auto">
-          <h2 class="text-3xl font-bold text-center mb-6 text-sky-800">
+      <section className="py-7">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-6 text-sky-800">
             Our Services
           </h2>
-          <div class="flex flex-wrap -mx-4">
-            <div class="w-full md:w-1/3 px-4 mb-8">
-              <div class="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                <div class="flex items-center justify-center h-12 w-12 mx-auto mb-2">
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
                   <FaMicrophoneAlt className="text-sky-600 text-3xl" />
                 </div>
-                <h3 class="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-sky-800 mb-4">
                   Media Relations
                 </h3>
-                <p class="text-sky-700 text-base">
+                <p className="text-sky-700 text-base">
                   We help clients establish and maintain strong relationships
                   with the media to ensure their messages are heard and their
                   stories are told.
                 </p>
               </div>
             </div>
-            <div class="w-full md:w-1/3 px-4 mb-8">
-              <div class="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                <div class="flex items-center justify-center h-12 w-12 mx-auto mb-2">
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
                   <FaMedkit className="text-sky-500 text-3xl" />
                 </div>
-                <h3 class="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-sky-800 mb-4">
                   Crisis Management
                 </h3>
-                <p class="text-sky-700 text-base">
+                <p className="text-sky-700 text-base">
                   We provide expert guidance and support to clients facing a
                   crisis, helping them to manage the situation and minimize
                   negative impact on their reputation.
                 </p>
               </div>
             </div>
-            <div class="w-full md:w-1/3 px-4 mb-8">
-              <div class="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                <div class="flex items-center justify-center h-12 w-12 mx-auto mb-2">
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
                   <FaCalendarAlt className="text-sky-500 text-3xl" />
                 </div>
-                <h3 class="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-sky-800 mb-4">
                   Event Planning
                 </h3>
-                <p class="text-sky-700 text-base">
+                <p className="text-sky-700 text-base">
                   We specialize in creating and executing events that captivate
                   and engage audiences, build brand awareness and drive results
                   for clients.
                 </p>
               </div>
             </div>
-            <div class="w-full md:w-1/3 px-4 mb-8">
-              <div class="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                <div class="flex items-center justify-center h-12 w-12 mx-auto mb-2">
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
                   <FaFileAlt className="text-sky-500 text-3xl" />
                 </div>
-                <h3 class="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-sky-800 mb-4">
                   Content Creation
                 </h3>
-                <p class="text-sky-700 text-base">
+                <p className="text-sky-700 text-base">
                   We develop high-quality, engaging content across various
                   formats and platforms to help clients communicate their
                   messages and build their brand.
                 </p>
               </div>
             </div>
-            <div class="w-full md:w-1/3 px-4 mb-8">
-              <div class="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                <div class="flex items-center justify-center h-12 w-12 mx-auto mb-2">
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
                   <FaUsers className="text-sky-500 text-3xl" />
                 </div>
-                <h3 class="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-sky-800 mb-4">
                   Influencer Marketing
                 </h3>
-                <p class="text-sky-700 text-base">
+                <p className="text-sky-700 text-base">
                   We help clients connect with relevant influencers and build
                   lasting relationships that increase their brand reach and
                   credibility.
                 </p>
               </div>
             </div>
-            <div class="w-full md:w-1/3 px-4 mb-8">
-              <div class="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
-                <div class="flex items-center justify-center h-12 w-12 mx-auto mb-2">
+            <div className="w-full md:w-1/3 px-4 mb-8">
+              <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
+                <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
                   <FaTwitter className="text-sky-500 text-3xl" />
                 </div>
-                <h3 class="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-sky-800 mb-4">
                   Social Media Management
                 </h3>
-                <p class="text-sky-700 text-base">
+                <p className="text-sky-700 text-base">
                   We help clients establish and grow their presence on social
                   media, creating and sharing content that resonates with their
                   audience and drives engagement.
@@ -129,7 +129,7 @@ export default function Home() {
       </section>
 
       <section className="bg-sky-500">
-        <div className="text-center container px-5 py-6 mx-auto text-white">
+        <div className="text-center container px-5 py-7 mx-auto text-white">
           <h1 className="lg:w-1/2 lg:text-4xl text-2xl pb-2 font-semibold mx-auto">
             Our media placements will increase your credibility and bring you
             more prospects
@@ -204,8 +204,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
-        <div className="container px-5 py-14 mx-auto">
+      <section className="py-7">
+        <div className="container px-5 py-7 mx-auto">
           <h2 className="text-center text-3xl font-semibold pb-8">
             Testimonials
           </h2>
@@ -262,7 +262,7 @@ export default function Home() {
         </div>
       </section>
       <section id="contact" className="text-white bg-sky-800 relative">
-        <div className="container px-5 py-6 mx-auto">
+        <div className="container px-5 py-7 mx-auto">
           <div className="flex flex-col text-center w-full mb-8">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-1 text-white">
               Interested in working with us? <br /> Drop us a line.
