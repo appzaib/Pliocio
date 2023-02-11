@@ -7,10 +7,10 @@ function Contact() {
       <Head>
         <title>Conatct Us</title>
       </Head>
-      <section id="contact" className="text-white bg-sky-800 relative">
-        <div className="container px-5 py-6 mx-auto">
+      <section id="contact" className="relative">
+        <div className="container px-5 py-8 mx-auto">
           <div className="flex flex-col text-center w-full mb-8">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-1 text-white">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-1">
               Interested in working with us? <br /> Drop us a line.
             </h1>
           </div>
@@ -20,7 +20,7 @@ function Contact() {
                 <div className="relative">
                   <label
                     htmlFor="name"
-                    className="leading-7 text-sm text-white"
+                    className="leading-7 text-sm text-gray-800"
                   >
                     Name
                   </label>
@@ -28,7 +28,7 @@ function Contact() {
                     type="text"
                     id="name"
                     name="name"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-sky-500 focus:bg-sky-100 focus:ring-2 focus:ring-sky-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-100 focus:bg-gray-100 focus:ring-2 focus:ring-gray-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
               </div>
@@ -36,7 +36,7 @@ function Contact() {
                 <div className="relative">
                   <label
                     htmlFor="email"
-                    className="leading-7 text-sm text-white"
+                    className="leading-7 text-sm text-gray-800"
                   >
                     Email
                   </label>
@@ -44,7 +44,7 @@ function Contact() {
                     type="email"
                     id="email"
                     name="email"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-sky-500 focus:bg-sky-100 focus:ring-2 focus:ring-sky-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-100 focus:bg-gray-100 focus:ring-2 focus:ring-gray-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
               </div>
@@ -52,7 +52,7 @@ function Contact() {
                 <div className="relative">
                   <label
                     htmlFor="email"
-                    className="leading-7 text-sm text-white"
+                    className="leading-7 text-sm text-gray-800"
                   >
                     Phone
                   </label>
@@ -60,7 +60,7 @@ function Contact() {
                     type="tel"
                     id="email"
                     name="email"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-sky-500 focus:bg-sky-100 focus:ring-2 focus:ring-sky-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-100 focus:bg-gray-100 focus:ring-2 focus:ring-gray-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
               </div>
@@ -68,14 +68,14 @@ function Contact() {
                 <div className="relative">
                   <label
                     htmlFor="message"
-                    className="leading-7 text-sm text-white"
+                    className="leading-7 text-sm text-gray-800"
                   >
                     Tell us how we can help.
                   </label>
                   <textarea
                     id="message"
                     name="message"
-                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-sky-500 focus:bg-sky-100 focus:ring-2 focus:ring-sky-200 h-16 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-gray-100 focus:bg-gray-100 focus:ring-2 focus:ring-gray-200 h-16 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                   ></textarea>
                 </div>
               </div>
