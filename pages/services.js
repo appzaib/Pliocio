@@ -1,67 +1,71 @@
+import Head from "next/head";
+
 export default function Services() {
   return (
     <div>
-      <section className="text-gray-600 container mx-auto">
-        <h1 class="text-5xl font-bold my-8 text-center text-gray-900">
+      <Head>
+        <title>Services</title>
+      </Head>
+      <div className="container mx-auto text-center md:text-start items-center md:items-start px-4 text-gray-600">
+        <h1 class="text-5xl font-medium my-9 text-center text-gray-900">
           Our Services
         </h1>
-        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+
+        <div class="flex flex-col md:flex-row py-12">
+          <img src="PUBLIC.jpg" alt="Your Image" class="w-full md:hidden" />
+          <div class="w-full md:w-7/12">
+            <h2 class="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
               Media Relations
-            </h1>
-            <p className="mb-4 leading-relaxed">
-              Media relations is a crucial aspect of public relations and
-              involves building and maintaining positive relationships with
-              journalists, editors, and other media outlets. The goal of media
-              relations is to ensure that your brand receives favorable coverage
-              in the press, which can help build your reputation, increase brand
-              awareness, and ultimately drive sales. Effective media relations
-              requires a deep understanding of the media landscape, strong
-              relationships with key journalists, and the ability to craft
-              compelling stories that resonate with your target audience.
+            </h2>
+            <p class="text-base md:text-lg leading-relaxed">
+              Media relations is an essential component of public relations,
+              enabling brands to develop fruitful relationships with journalists
+              and media outlets to secure favorable coverage. Effective media
+              relations requires a nuanced understanding of the media landscape,
+              building strong relationships, and crafting engaging stories. In
+              today's digital age, the scope of media relations has expanded to
+              include engaging with bloggers, influencers, and social media
+              platforms, enabling brands to expand their reach, establish
+              credibility, and connect with a diverse audience.
             </p>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="PUBLIC.jpg"
-            />
-          </div>
+          <img
+            src="PUBLIC.jpg"
+            alt="Your Image"
+            class="hidden md:block w-full md:w-5/12 md:pl-14"
+          />
         </div>
 
-        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="crisis.jpg"
-            />
-          </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+        <div class="flex flex-col md:flex-row py-12">
+          <img
+            src="crisis.jpg"
+            alt="Your Image"
+            class="w-full md:w-5/12 md:pr-14"
+          />
+          <div class="w-full md:w-7/12">
+            <h2 class="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
               Crisis Management
-            </h1>
-            <p className="mb-4 leading-relaxed">
-              Crisis management is an essential part of any public relations
-              strategy. In a crisis situation, it's critical to have a plan in
-              place to minimize damage to your reputation and brand. This may
-              involve communicating with key stakeholders, including customers,
-              employees, and the media, to manage public perception and prevent
-              further harm. Crisis management requires a deep understanding of
-              risk management and effective communication strategies, as well as
-              the ability to think quickly and make decisions under pressure.
+            </h2>
+            <p class="text-base md:text-lg leading-relaxed">
+              Crisis management is the process of mitigating the impact of an
+              unexpected and potentially disastrous event on a company's
+              reputation and operations. It involves assessing the situation,
+              developing a strategy, and executing a plan to contain the crisis
+              and communicate effectively with stakeholders. Effective crisis
+              management can help to preserve a brand's reputation, maintain
+              customer trust, and minimize financial losses. It is a critical
+              component of any comprehensive risk management plan.
             </p>
           </div>
         </div>
 
-        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+        <div class="flex flex-col md:flex-row py-12">
+          <img src="EVENT.jpg" alt="Your Image" class="w-full md:hidden" />
+          <div class="w-full md:w-7/12">
+            <h2 class="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
               Event Planning
-            </h1>
-            <p className="mb-4 leading-relaxed">
+            </h2>
+            <p class="text-base md:text-lg leading-relaxed">
               Event planning is a key aspect of public relations and marketing,
               as it provides an opportunity to build your brand, engage your
               target audience, and generate positive media coverage. Successful
@@ -74,28 +78,24 @@ export default function Services() {
               success of your event.
             </p>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="EVENT.jpg"
-            />
-          </div>
+          <img
+            src="EVENT.jpg"
+            alt="Your Image"
+            class="hidden md:block w-full md:w-5/12 md:pl-14"
+          />
         </div>
 
-        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="content.jpg"
-            />
-          </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+        <div class="flex flex-col md:flex-row py-12">
+          <img
+            src="content.jpg"
+            alt="Your Image"
+            class="w-full md:w-5/12 md:pr-14"
+          />
+          <div class="w-full md:w-7/12">
+            <h2 class="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
               Content Creation
-            </h1>
-            <p className="mb-4 leading-relaxed">
+            </h2>
+            <p class="text-base md:text-lg leading-relaxed">
               Content creation is a key aspect of modern marketing and public
               relations, as it provides a way to engage your target audience and
               build your brand. Whether it's blog posts, video production, or
@@ -110,12 +110,13 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+        <div class="flex flex-col md:flex-row py-12">
+          <img src="marketing.jpg" alt="Your Image" class="w-full md:hidden" />
+          <div class="w-full md:w-7/12">
+            <h2 class="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
               Influencer Marketing
-            </h1>
-            <p className="mb-4 leading-relaxed">
+            </h2>
+            <p class="text-base md:text-lg leading-relaxed">
               Influencer marketing is a modern marketing strategy that leverages
               the power of social media influencers to reach your target
               audience, increase brand awareness, and drive sales. Effective
@@ -128,28 +129,24 @@ export default function Services() {
               audience, build your brand, and ultimately drive sales.
             </p>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="marketing.jpg"
-            />
-          </div>
+          <img
+            src="marketing.jpg"
+            alt="Your Image"
+            class="hidden md:block w-full md:w-5/12 md:pl-14"
+          />
         </div>
 
-        <div className="flex px-5 py-12 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src="SOCIAL-MEDIA.jpg"
-            />
-          </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pl-16 flex flex-col md:items-start md:text-left md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+        <div class="flex flex-col md:flex-row py-12">
+          <img
+            src="SOCIAL-MEDIA.jpg"
+            alt="Your Image"
+            class="w-full md:w-5/12 md:pr-14"
+          />
+          <div class="w-full md:w-7/12">
+            <h2 class="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
               Social Media Management
-            </h1>
-            <p className="mb-4 leading-relaxed">
+            </h2>
+            <p class="text-base md:text-lg leading-relaxed">
               Social media management is an essential aspect of modern marketing
               and public relations. It involves creating and executing effective
               social media strategies, from content creation to community
@@ -164,7 +161,7 @@ export default function Services() {
             </p>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }
