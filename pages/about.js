@@ -9,49 +9,77 @@ function About() {
       <div className="lg:max-h-screen text-center">
         <img
           src="feature.jpg"
-          className="lg:h-[90vh] w-full object-cover"
+          className="lg:h-[80vh] w-full object-cover"
           alt=""
         />
       </div>
-      <div className="py-12">
-        <div className="container mx-auto px-6">
-          <h1 className="text-3xl font-medium mb-6">
+      <div className="py-8">
+        <div className="container mx-auto px-4 text-gray-600">
+          <h1 className="text-3xl font-semibold mb-5 text-center text-gray-900">
             Introducing Our Public Relations Firm
           </h1>
-          <p className="text-lg mb-6 text-gray-800">
+          <p className="text-base md:text-lg leading-relaxed mb-5">
             At Fixedam, we provide top-notch public relations services to help
             clients navigate the complex and ever-changing media landscape. Our
             team of experienced PR professionals has a proven track record of
             delivering results for a wide range of industries and organizations.
           </p>
-          <h2 className="text-2xl font-medium mb-6">Why Choose Us?</h2>
-          <ul className="list-disc pl-5 mb-6 text-gray-800">
-            <li className="mb-2">
-              Results-Driven Approach: We focus on delivering measurable results
-              for our clients and use data-driven strategies to drive impact.
-            </li>
-            <li className="mb-2">
-              Customized Solutions: Every client is unique and so are their PR
-              needs. We take the time to understand your goals and develop a
-              customized PR plan tailored to your specific needs.
-            </li>
-            <li className="mb-2">
-              Media Relations Expertise: Our team has strong relationships with
-              key media outlets and influencers, allowing us to secure
-              high-impact coverage for our clients.
-            </li>
-            <li className="mb-2">
-              Crisis Management: We have extensive experience handling crisis
-              situations and can help you navigate the most challenging of
-              circumstances with ease.
-            </li>
-            <li className="mb-2">
-              Comprehensive Services: From media relations and influencer
-              outreach to events and thought leadership, we offer a full suite
-              of PR services to meet all of your needs.
-            </li>
-          </ul>
-          <p className="text-lg mb-6 text-gray-800">
+          <h2 className="text-3xl font-semibold text-center text-gray-900">
+            Why Choose Us?
+          </h2>
+          <div className="text-center md:text-start items-center px-4 text-gray-600">
+            <div class="flex flex-col md:flex-row py-12 items-center">
+              <img
+                src="result-driven.webp"
+                alt="result-driven"
+                class="w-full md:hidden"
+              />
+              <div class="w-full md:w-2/4">
+                <h2 class="text-2xl md:text-3xl font-medium mb-4 text-gray-800">
+                  Results-Driven Approach
+                </h2>
+                <p class="text-base md:text-lg leading-relaxed">
+                  We focus on delivering measurable results for our clients and
+                  use data-driven strategies to drive impact.We continually
+                  analyze and optimize our strategies to ensure our clients
+                  achieve their desired outcomes and stay ahead of their
+                  competition.Our team of experts is dedicated to staying
+                  up-to-date with the latest industry trends and technologies,
+                  so we can provide our clients with the most effective
+                  solutions for their unique needs.
+                </p>
+              </div>
+              <img
+                src="result-driven.webp"
+                alt="result"
+                class="hidden md:block w-full md:w-2/4 md:pl-12"
+              />
+            </div>
+
+            <div class="flex flex-col md:flex-row py-12 items-center">
+              <img
+                src="solution.webp"
+                alt="customized-solution"
+                class="w-full md:w-2/4 md:pr-12 h-80"
+              />
+              <div class="w-full md:w-2/4">
+                <h2 class="text-2xl md:text-3xl font-medium mb-4 text-gray-800">
+                  Customized Solutions
+                </h2>
+                <p class="text-base md:text-lg leading-relaxed">
+                  Every client is unique and so are their PR needs. We take the
+                  time to understand your goals and develop a customized PR plan
+                  tailored to your specific needs.Our approach ensures that our
+                  clients receive personalized attention and solutions that
+                  address their specific challenges, rather than a
+                  one-size-fits-all approach. Our customized PR solutions help
+                  our clients stand out in their industry and achieve their
+                  desired outcomes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <p className="text-base md:text-lg leading-relaxed">
             Our team is passionate about helping clients tell their story and
             building their brand. Let us put our expertise to work for you.
             Contact us today to learn more about our services and how we can
