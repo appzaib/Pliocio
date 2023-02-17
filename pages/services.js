@@ -12,7 +12,7 @@ export default function Services() {
         </h1>
 
         <div class="flex flex-col md:flex-row py-12">
-          <img src="PUBLIC.jpg" alt="Your Image" class="w-full md:hidden" />
+          <img src="PUBLIC.jpg" alt="media" class="w-full md:hidden" />
           <div class="w-full md:w-7/12">
             <h2 class="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
               Media Relations
@@ -31,7 +31,7 @@ export default function Services() {
           </div>
           <img
             src="PUBLIC.jpg"
-            alt="Your Image"
+            alt="media"
             class="hidden md:block w-full md:w-5/12 md:pl-14"
           />
         </div>
@@ -39,7 +39,7 @@ export default function Services() {
         <div class="flex flex-col md:flex-row py-12">
           <img
             src="crisis.jpg"
-            alt="Your Image"
+            alt="crisis"
             class="w-full md:w-5/12 md:pr-14"
           />
           <div class="w-full md:w-7/12">
@@ -60,7 +60,7 @@ export default function Services() {
         </div>
 
         <div class="flex flex-col md:flex-row py-12">
-          <img src="EVENT.jpg" alt="Your Image" class="w-full md:hidden" />
+          <img src="EVENT.jpg" alt="event" class="w-full md:hidden" />
           <div class="w-full md:w-7/12">
             <h2 class="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
               Event Planning
@@ -80,7 +80,7 @@ export default function Services() {
           </div>
           <img
             src="EVENT.jpg"
-            alt="Your Image"
+            alt="event"
             class="hidden md:block w-full md:w-5/12 md:pl-14"
           />
         </div>
@@ -88,7 +88,7 @@ export default function Services() {
         <div class="flex flex-col md:flex-row py-12">
           <img
             src="content.jpg"
-            alt="Your Image"
+            alt="content-management"
             class="w-full md:w-5/12 md:pr-14"
           />
           <div class="w-full md:w-7/12">
@@ -111,7 +111,7 @@ export default function Services() {
         </div>
 
         <div class="flex flex-col md:flex-row py-12">
-          <img src="marketing.jpg" alt="Your Image" class="w-full md:hidden" />
+          <img src="marketing.jpg" alt="marketing" class="w-full md:hidden" />
           <div class="w-full md:w-7/12">
             <h2 class="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
               Influencer Marketing
@@ -131,7 +131,7 @@ export default function Services() {
           </div>
           <img
             src="marketing.jpg"
-            alt="Your Image"
+            alt="marketing"
             class="hidden md:block w-full md:w-5/12 md:pl-14"
           />
         </div>
@@ -139,7 +139,7 @@ export default function Services() {
         <div class="flex flex-col md:flex-row py-12">
           <img
             src="SOCIAL-MEDIA.jpg"
-            alt="Your Image"
+            alt="social-media"
             class="w-full md:w-5/12 md:pr-14"
           />
           <div class="w-full md:w-7/12">
