@@ -22,13 +22,13 @@ export default function Home() {
           className="lg:h-[75vh] w-full object-cover"
           alt=""
         />
-        <h2 className="lg:w-3/4 mx-auto text-center lg:text-3xl text-xl pt-7 tracking-wide text-slate-700 sm:text-2xl md:text-xl">
+        <h2 className="lg:w-3/4 mx-auto text-center lg:text-3xl text-xl pt-7 tracking-wide text-gray-800 sm:text-2xl md:text-xl">
           We position companies for market success and create awareness among
           their high-value audiences.
         </h2>
       </div>
 
-      <section className="py-7">
+      <section className="py-8">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center mb-6 text-sky-800">
             Our Services
@@ -128,7 +128,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-sky-500">
+      {/* <section className="bg-[#849DE2]">
         <div className="text-center container px-5 py-7 mx-auto text-white">
           <h1 className="lg:w-1/2 lg:text-4xl text-2xl pb-2 font-semibold mx-auto">
             Our media placements will increase your credibility and bring you
@@ -202,14 +202,43 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section> */}
+      <section className="py-8">
+        <div className="container mx-auto">
+          <div className="flex flex-col md:flex-row items-center">
+            <img
+              src="result-driven.webp"
+              alt="result-driven"
+              className="w-full md:hidden"
+            />
+            <div className="w-full md:w-7/12">
+              <h2 className="text-2xl md:text-3xl font-medium mb-4 text-gray-800">
+                Media Placements for Credibility and Prospect Generation
+              </h2>
+              <p className="text-base md:text-lg leading-relaxed text-gray-600">
+                Our PR solutions can help you dramatically boost your authority
+                and market leadership in your industry, attract more visitors to
+                your website, and improve your search engine rankings with
+                article backlinks. We can also help you raise awareness of your
+                brand and new products or services, positioning you as a thought
+                leader in your industry.
+              </p>
+            </div>
+            <img
+              src="result-driven.webp"
+              alt="result"
+              className="hidden md:block w-full md:w-5/12 md:pl-12"
+            />
+          </div>
+        </div>
       </section>
 
-      <section className="py-7">
-        <div className="container px-5 py-7 mx-auto">
-          <h2 className="text-center text-3xl font-semibold pb-8">
+      <section className="py-12">
+        <div className="container px-5 pt-7 mx-auto">
+          <h2 className="text-center text-3xl font-medium pb-8">
             Testimonials
           </h2>
-          <div className="flex flex-wrap -m-4">
+          <div className="flex flex-wrap -m-4 text-gray-600">
             <div className="lg:w-1/3 lg:mb-0 mb-6 p-8">
               <div className="h-full text-center">
                 <p className="leading-relaxed">
@@ -263,8 +292,8 @@ export default function Home() {
       </section>
       <section className="relative">
         <div className="container px-5 py-7 mx-auto">
-          <div className="flex flex-col text-center w-full mb-8">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-1">
+          <div className="flex flex-col text-center w-full">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font">
               Interested in working with us? <br /> Drop us a line.
             </h1>
           </div>
