@@ -28,17 +28,17 @@ function About() {
             Why Choose Us?
           </h2>
           <div className="text-center md:text-start items-center px-4 text-gray-600">
-            <div class="flex flex-col md:flex-row py-12 items-center">
+            <div className="flex flex-col md:flex-row py-12 items-center">
               <img
                 src="result-driven.webp"
                 alt="result-driven"
-                class="w-full md:hidden"
+                className="w-full md:hidden"
               />
-              <div class="w-full md:w-2/4">
-                <h2 class="text-2xl md:text-3xl font-medium mb-4 text-gray-800">
+              <div className="w-full md:w-2/4">
+                <h2 className="text-2xl md:text-3xl font-medium mb-4 text-gray-800">
                   Results-Driven Approach
                 </h2>
-                <p class="text-base md:text-lg leading-relaxed">
+                <p className="text-base md:text-lg leading-relaxed">
                   We focus on delivering measurable results for our clients and
                   use data-driven strategies to drive impact.We continually
                   analyze and optimize our strategies to ensure our clients
@@ -52,21 +52,21 @@ function About() {
               <img
                 src="result-driven.webp"
                 alt="result"
-                class="hidden md:block w-full md:w-2/4 md:pl-12"
+                className="hidden md:block w-full md:w-2/4 md:pl-12"
               />
             </div>
 
-            <div class="flex flex-col md:flex-row py-12 items-center">
+            <div className="flex flex-col md:flex-row py-12 items-center">
               <img
                 src="solution.webp"
                 alt="customized-solution"
-                class="w-full md:w-2/4 md:pr-12 h-80"
+                className="w-full md:w-2/4 md:pr-12 h-80"
               />
-              <div class="w-full md:w-2/4">
-                <h2 class="text-2xl md:text-3xl font-medium mb-4 text-gray-800">
+              <div className="w-full md:w-2/4">
+                <h2 className="text-2xl md:text-3xl font-medium mb-4 text-gray-800">
                   Customized Solutions
                 </h2>
-                <p class="text-base md:text-lg leading-relaxed">
+                <p className="text-base md:text-lg leading-relaxed">
                   Every client is unique and so are their PR needs. We take the
                   time to understand your goals and develop a customized PR plan
                   tailored to your specific needs.Our approach ensures that our
