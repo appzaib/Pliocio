@@ -6,15 +6,15 @@ export default function Services() {
       <Head>
         <title>Services</title>
       </Head>
-      <div className="container mx-auto text-center md:text-start items-center md:items-start px-4 text-gray-600">
-        <h1 className="text-5xl font-medium my-9 text-center text-gray-900">
+      <div className="container mx-auto text-center md:text-start items-center px-4 text-gray-600">
+        <h1 className="text-5xl font-medium my-9 text-center text-[#18206F]">
           Our Services
         </h1>
 
-        <div className="flex flex-col md:flex-row py-12">
+        <div className="flex flex-col md:flex-row py-12 items-center">
           <img src="PUBLIC.jpg" alt="media" className="w-full md:hidden" />
           <div className="w-full md:w-7/12">
-            <h2 className="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
+            <h2 className="text-2xl md:text-3xl font-medium mt-2 md:mt-0 mb-3 text-[#18206F]">
               Media Relations
             </h2>
             <p className="text-base md:text-lg leading-relaxed">
@@ -36,14 +36,14 @@ export default function Services() {
           />
         </div>
 
-        <div className="flex flex-col md:flex-row py-12">
+        <div className="flex flex-col md:flex-row py-12 items-center">
           <img
             src="crisis.jpg"
             alt="crisis"
             className="w-full md:w-5/12 md:pr-14"
           />
           <div className="w-full md:w-7/12">
-            <h2 className="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
+            <h2 className="text-2xl md:text-3xl font-medium mt-2 md:mt-0 mb-3 text-[#18206F]">
               Crisis Management
             </h2>
             <p className="text-base md:text-lg leading-relaxed">
@@ -59,10 +59,10 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row py-12">
+        <div className="flex flex-col md:flex-row py-12 items-center">
           <img src="EVENT.jpg" alt="event" className="w-full md:hidden" />
           <div className="w-full md:w-7/12">
-            <h2 className="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
+            <h2 className="text-2xl md:text-3xl font-medium mt-2 md:mt-0 mb-3 text-[#18206F]">
               Event Planning
             </h2>
             <p className="text-base md:text-lg leading-relaxed">
@@ -85,14 +85,14 @@ export default function Services() {
           />
         </div>
 
-        <div className="flex flex-col md:flex-row py-12">
+        <div className="flex flex-col md:flex-row py-12 items-center">
           <img
             src="content.jpg"
             alt="content-management"
             className="w-full md:w-5/12 md:pr-14"
           />
           <div className="w-full md:w-7/12">
-            <h2 className="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
+            <h2 className="text-2xl md:text-3xl font-medium mt-2 md:mt-0 mb-3 text-[#18206F]">
               Content Creation
             </h2>
             <p className="text-base md:text-lg leading-relaxed">
@@ -110,14 +110,14 @@ export default function Services() {
           </div>
         </div>
 
-        <div className="flex flex-col md:flex-row py-12">
+        <div className="flex flex-col md:flex-row py-12 items-center">
           <img
             src="marketing.jpg"
             alt="marketing"
             className="w-full md:hidden"
           />
           <div className="w-full md:w-7/12">
-            <h2 className="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
+            <h2 className="text-2xl md:text-3xl font-medium mt-2 md:mt-0 mb-3 text-[#18206F]">
               Influencer Marketing
             </h2>
             <p className="text-base md:text-lg leading-relaxed">
@@ -140,14 +140,14 @@ export default function Services() {
           />
         </div>
 
-        <div className="flex flex-col md:flex-row py-12">
+        <div className="flex flex-col md:flex-row py-12 items-center">
           <img
             src="SOCIAL-MEDIA.jpg"
             alt="social-media"
             className="w-full md:w-5/12 md:pr-14"
           />
           <div className="w-full md:w-7/12">
-            <h2 className="text-2xl md:text-3xl font-medium mt-2 mb-3 text-gray-800">
+            <h2 className="text-2xl md:text-3xl font-medium mt-2 md:mt-0 mb-3 text-[#18206F]">
               Social Media Management
             </h2>
             <p className="text-base md:text-lg leading-relaxed">
