@@ -80,7 +80,7 @@ function Contact() {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-sky-500 border-0 py-2 px-8 focus:outline-none hover:bg-sky-600 rounded text-lg">
+                <button className="flex mx-auto text-white bg-[#18206F] border-0 py-2 px-8 focus:outline-none hover:bg-[#182365] rounded text-lg">
                   GET STARTED
                 </button>
               </div>

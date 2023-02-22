@@ -30,19 +30,19 @@ export default function Home() {
 
       <section className="py-8">
         <div className="container mx-auto">
-          <h2 className="text-3xl font-bold text-center mb-6 text-sky-800">
+          <h2 className="text-3xl font-bold text-center mb-6 text-[#18206F]">
             Our Services
           </h2>
           <div className="flex flex-wrap -mx-4">
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
                 <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
-                  <FaMicrophoneAlt className="text-sky-600 text-3xl" />
+                  <FaMicrophoneAlt className="text-[#182460] text-3xl" />
                 </div>
-                <h3 className="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-[#18206F] mb-4">
                   Media Relations
                 </h3>
-                <p className="text-sky-700 text-base">
+                <p className="text-[#18206F] text-base">
                   We help clients establish and maintain strong relationships
                   with the media to ensure their messages are heard and their
                   stories are told.
@@ -52,12 +52,12 @@ export default function Home() {
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
                 <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
-                  <FaMedkit className="text-sky-500 text-3xl" />
+                  <FaMedkit className="text-[#182460] text-3xl" />
                 </div>
-                <h3 className="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-[#18206F] mb-4">
                   Crisis Management
                 </h3>
-                <p className="text-sky-700 text-base">
+                <p className="text-[#18206F] text-base">
                   We provide expert guidance and support to clients facing a
                   crisis, helping them to manage the situation and minimize
                   negative impact on their reputation.
@@ -67,12 +67,12 @@ export default function Home() {
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
                 <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
-                  <FaCalendarAlt className="text-sky-500 text-3xl" />
+                  <FaCalendarAlt className="text-[#182460] text-3xl" />
                 </div>
-                <h3 className="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-[#18206F] mb-4">
                   Event Planning
                 </h3>
-                <p className="text-sky-700 text-base">
+                <p className="text-[#18206F] text-base">
                   We specialize in creating and executing events that captivate
                   and engage audiences, build brand awareness and drive results
                   for clients.
@@ -82,12 +82,12 @@ export default function Home() {
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
                 <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
-                  <FaFileAlt className="text-sky-500 text-3xl" />
+                  <FaFileAlt className="text-[#182460] text-3xl" />
                 </div>
-                <h3 className="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-[#18206F] mb-4">
                   Content Creation
                 </h3>
-                <p className="text-sky-700 text-base">
+                <p className="text-[#18206F] text-base">
                   We develop high-quality, engaging content across various
                   formats and platforms to help clients communicate their
                   messages and build their brand.
@@ -97,12 +97,12 @@ export default function Home() {
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
                 <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
-                  <FaUsers className="text-sky-500 text-3xl" />
+                  <FaUsers className="text-[#182460] text-3xl" />
                 </div>
-                <h3 className="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-[#18206F] mb-4">
                   Influencer Marketing
                 </h3>
-                <p className="text-sky-700 text-base">
+                <p className="text-[#18206F] text-base">
                   We help clients connect with relevant influencers and build
                   lasting relationships that increase their brand reach and
                   credibility.
@@ -112,12 +112,12 @@ export default function Home() {
             <div className="w-full md:w-1/3 px-4 mb-8">
               <div className="bg-white h-64 rounded-lg shadow-lg p-8 text-center hover:shadow-xl transition-shadow duration-300 ease-in-out">
                 <div className="flex items-center justify-center h-12 w-12 mx-auto mb-2">
-                  <FaTwitter className="text-sky-500 text-3xl" />
+                  <FaTwitter className="text-[#182460] text-3xl" />
                 </div>
-                <h3 className="font-bold text-xl text-sky-800 mb-4">
+                <h3 className="font-bold text-xl text-[#18206F] mb-4">
                   Social Media Management
                 </h3>
-                <p className="text-sky-700 text-base">
+                <p className="text-[#18206F] text-base">
                   We help clients establish and grow their presence on social
                   media, creating and sharing content that resonates with their
                   audience and drives engagement.
@@ -204,15 +204,15 @@ export default function Home() {
         </div>
       </section> */}
       <section className="py-8">
-        <div className="container mx-auto">
-          <div className="flex flex-col md:flex-row items-center">
+        <div className="container mx-auto px-2">
+          <div className="flex flex-col md:flex-row items-center text-center md:text-start">
             <img
               src="result-driven.webp"
               alt="result-driven"
-              className="w-full md:hidden"
+              className="w-full md:hidden pl-4"
             />
             <div className="w-full md:w-7/12">
-              <h2 className="text-2xl md:text-3xl font-medium mb-4 text-gray-800">
+              <h2 className="text-2xl md:text-3xl font-medium mb-4 text-[#18206F]">
                 Media Placements for Credibility and Prospect Generation
               </h2>
               <p className="text-base md:text-lg leading-relaxed text-gray-600">
@@ -235,7 +235,7 @@ export default function Home() {
 
       <section className="py-12">
         <div className="container px-5 pt-7 mx-auto">
-          <h2 className="text-center text-3xl font-medium pb-8">
+          <h2 className="text-center text-3xl font-medium pb-8 text-[#18206F]">
             Testimonials
           </h2>
           <div className="flex flex-wrap -m-4 text-gray-600">
@@ -293,7 +293,7 @@ export default function Home() {
       <section className="relative">
         <div className="container px-5 py-7 mx-auto">
           <div className="flex flex-col text-center w-full">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font">
+            <h1 className="sm:text-3xl text-2xl font-medium text-[#18206F]">
               Interested in working with us? <br /> Drop us a line.
             </h1>
           </div>
@@ -363,7 +363,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-white bg-sky-500 border-0 py-2 px-8 focus:outline-none hover:bg-sky-600 rounded text-lg">
+                <button className="flex mx-auto text-white bg-[#18206F] border-0 py-2 px-8 focus:outline-none hover:bg-[#182365] rounded text-lg">
                   GET STARTED
                 </button>
               </div>

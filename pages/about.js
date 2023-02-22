@@ -15,7 +15,7 @@ function About() {
       </div>
       <div className="py-8">
         <div className="container mx-auto px-4 text-gray-600">
-          <h1 className="text-3xl font-semibold mb-5 text-center text-gray-900">
+          <h1 className="text-3xl font-semibold mb-5 text-center text-[#18206F]">
             Introducing Our Public Relations Firm
           </h1>
           <p className="text-base md:text-lg leading-relaxed mb-5">
@@ -24,7 +24,7 @@ function About() {
             team of experienced PR professionals has a proven track record of
             delivering results for a wide range of industries and organizations.
           </p>
-          <h2 className="text-3xl font-semibold text-center text-gray-900">
+          <h2 className="text-3xl font-semibold text-center text-[#18206F]">
             Why Choose Us?
           </h2>
           <div className="text-center md:text-start items-center px-4 text-gray-600">
@@ -35,7 +35,7 @@ function About() {
                 className="w-full md:hidden"
               />
               <div className="w-full md:w-2/4">
-                <h2 className="text-2xl md:text-3xl font-medium mb-4 text-gray-800">
+                <h2 className="text-2xl md:text-3xl font-medium mb-4 text-[#18206F]">
                   Results-Driven Approach
                 </h2>
                 <p className="text-base md:text-lg leading-relaxed">
@@ -63,7 +63,7 @@ function About() {
                 className="w-full md:w-2/4 md:pr-12 h-80"
               />
               <div className="w-full md:w-2/4">
-                <h2 className="text-2xl md:text-3xl font-medium mb-4 text-gray-800">
+                <h2 className="text-2xl md:text-3xl font-medium mb-4 text-[#18206F]">
                   Customized Solutions
                 </h2>
                 <p className="text-base md:text-lg leading-relaxed">
