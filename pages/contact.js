@@ -10,7 +10,7 @@ function Contact() {
       <section id="contact" className="relative">
         <div className="container px-5 py-8 mx-auto">
           <div className="flex flex-col text-center w-full mb-8">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-1">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-1 text-[#18206F]">
               Interested in working with us? <br /> Drop us a line.
             </h1>
           </div>
